@@ -81,3 +81,5 @@ client/windows/flutter/generated_plugin_registrant.h
 client/windows/flutter/generated_plugins.cmake
 
 client/assets/config.json
+/.dart_tool
+.DS_Store
