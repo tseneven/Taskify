@@ -64,6 +64,20 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 
 # build_system
-
+linux
+macos
+windows
+android
+web
+test
+ios
+build
+client/linux/flutter/generated_plugin_registrant.cc
+client/linux/flutter/generated_plugin_registrant.h
+client/linux/flutter/generated_plugins.cmake
+client/macos/Flutter/GeneratedPluginRegistrant.swift
+client/windows/flutter/generated_plugin_registrant.cc
+client/windows/flutter/generated_plugin_registrant.h
+client/windows/flutter/generated_plugins.cmake
 
 client/assets/config.json
