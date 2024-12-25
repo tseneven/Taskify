@@ -26,8 +26,8 @@ lerna-debug.log*
 /.nyc_output
 
 # IDEs and editors
-/.dart_tool/
-/.idea
+/frontend/.dart_tool/
+/frontend/.idea
 .project
 .classpath
 .c9/
@@ -62,22 +62,16 @@ pids
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# Ignore platform-specific folders
 
-# build_system
-linux
-macos
-windows
-android
-web
-test
-ios
-build
-client/linux/flutter/generated_plugin_registrant.cc
-client/linux/flutter/generated_plugin_registrant.h
-client/linux/flutter/generated_plugins.cmake
-client/macos/Flutter/GeneratedPluginRegistrant.swift
-client/windows/flutter/generated_plugin_registrant.cc
-client/windows/flutter/generated_plugin_registrant.h
-client/windows/flutter/generated_plugins.cmake
+#build_system
+/frontend/linux/
+/frontend/macos/
+/frontend/windows/
+/frontend/android/
+/frontend/web/
+/frontend/test/
+/frontend/ios/
+
 
 client/assets/config.json
