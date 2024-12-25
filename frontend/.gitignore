@@ -1,83 +1,43 @@
-node_modules
+# Miscellaneous
+*.class
 *.log
-/dist
-.env
-.vscode
-
-# compiled output
-/server/dist
-/server/node_modules
-/server/build
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# OS
+*.pyc
+*.swp
 .DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Tests
-/coverage
-/.nyc_output
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# IDEs and editors
-/.dart_tool/
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+# Symbolication related
+app.*.symbols
 
-# temp directory
-.temp
-.tmp
+# Obfuscation related
+app.*.map.json
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-
-# build_system
-linux
-macos
-windows
-android
-web
-test
-ios
-build
-client/linux/flutter/generated_plugin_registrant.cc
-client/linux/flutter/generated_plugin_registrant.h
-client/linux/flutter/generated_plugins.cmake
-client/macos/Flutter/GeneratedPluginRegistrant.swift
-client/windows/flutter/generated_plugin_registrant.cc
-client/windows/flutter/generated_plugin_registrant.h
-client/windows/flutter/generated_plugins.cmake
-
-client/assets/config.json
+# Android Studio will place build artifacts here
+Android
